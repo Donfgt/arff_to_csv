@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "AAM ARFF to CSV Converter"
+version: "1.0.0"
+date-released: "2026-03-03"
+license: "MIT"
+authors:
+  - family-names: "He"
+    given-names: "Zheng"
+    name-particle: ""
+keywords:
+  - "symbolic music"
+  - "AAM"
+  - "ARFF"
+  - "music preprocessing"
+  - "melody-chord dataset"
+  - "harmonization"
+abstract: >-
+  A preprocessing toolkit that converts grouped AAM annotations
+  (segments/onsets/beatinfo) into a training-ready melody-chord CSV with
+  optional key normalization and conversion summary statistics.
