@@ -33,10 +33,6 @@ arff_to-csv-open-source/
 │  └─ dataset.csv                  # 转换结果样例（可训练）
 ├─ results/
 │  └─ aam_summary.json             # 转换统计报告
-├─ docs/
-│  └─ references/
-│     ├─ arff方案.md
-│     └─ 第3章 数据准备与预处理(AAM).md
 ├─ requirements.txt
 └─ README.md
 ```
