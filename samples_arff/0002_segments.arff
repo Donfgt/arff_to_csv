@@ -1,0 +1,18 @@
+@RELATION 'Segment information of 0002'
+
+@ATTRIBUTE 'Start time in seconds' NUMERIC
+@ATTRIBUTE 'Mark' STRING
+@ATTRIBUTE 'Tempo' NUMERIC
+@ATTRIBUTE 'Key' STRING
+@ATTRIBUTE 'Instruments' STRING
+@ATTRIBUTE 'Generator' STRING
+
+@DATA
+0.0,'A',139,'G#min','[Viola,Sitar,ElectricPiano,DoubleBassPizz,Drums]','[MelodyBow,ChordPadsRanged,ChordArpeggios,BassLine,RhythmSimpleGrooves]'
+13.812949,'C',69,'G#min','[Viola,Sitar,ElectricPiano,Drums]','[MelodyBow,ChordPadsRanged,ChordArpeggios,RhythmSimpleGrooves]'
+41.639034,'C',69,'G#min','[Viola,Sitar,ElectricPiano,Drums]','[MelodyBow,ChordPadsRanged,ChordArpeggios,RhythmSimpleGrooves]'
+69.46512,'C',69,'G#min','[Viola,Sitar,ElectricPiano,Drums]','[MelodyBow,ChordPadsRanged,ChordArpeggios,RhythmSimpleGrooves]'
+97.29121,'B',139,'Bmaj','[MorinKhuur,DoubleBassPizz,Drums]','[MelodyBow,BassLine,RhythmSimpleGrooves]'
+118.010635,'B',139,'Bmaj','[MorinKhuur,DoubleBassPizz,Drums]','[MelodyBow,BassLine,RhythmSimpleGrooves]'
+138.73006,'B',139,'Bmaj','[MorinKhuur,DoubleBassPizz,Drums]','[MelodyBow,BassLine,RhythmSimpleGrooves]'
+159.44948,'end',0,'','[]','[]'

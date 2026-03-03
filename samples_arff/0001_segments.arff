@@ -1,0 +1,17 @@
+@RELATION 'Segment information of 0001'
+
+@ATTRIBUTE 'Start time in seconds' NUMERIC
+@ATTRIBUTE 'Mark' STRING
+@ATTRIBUTE 'Tempo' NUMERIC
+@ATTRIBUTE 'Key' STRING
+@ATTRIBUTE 'Instruments' STRING
+@ATTRIBUTE 'Generator' STRING
+
+@DATA
+0.0,'A',92,'Fmaj','[TenorSax,Ukulele,OrganBass]','[MelodyBow,ChordArpeggios,BassLine]'
+15.652174,'A',92,'Fmaj','[TenorSax,Ukulele,OrganBass]','[MelodyBow,ChordArpeggios,BassLine]'
+31.304348,'A',92,'Fmaj','[TenorSax,Ukulele,OrganBass]','[MelodyBow,ChordArpeggios,BassLine]'
+46.95652,'A',92,'Fmaj','[TenorSax,Ukulele,OrganBass]','[MelodyBow,ChordArpeggios,BassLine]'
+62.608696,'A',92,'Fmaj','[TenorSax,Ukulele,OrganBass]','[MelodyBow,ChordArpeggios,BassLine]'
+78.26087,'C',92,'Gmin','[Flugelhorn,OrganBass,Drums]','[MelodyBow,BassLine,RhythmSimpleGrooves]'
+120.0,'end',0,'','[]','[]'

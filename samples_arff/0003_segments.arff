@@ -1,0 +1,15 @@
+@RELATION 'Segment information of 0003'
+
+@ATTRIBUTE 'Start time in seconds' NUMERIC
+@ATTRIBUTE 'Mark' STRING
+@ATTRIBUTE 'Tempo' NUMERIC
+@ATTRIBUTE 'Key' STRING
+@ATTRIBUTE 'Instruments' STRING
+@ATTRIBUTE 'Generator' STRING
+
+@DATA
+0.0,'A',70,'Dmaj','[Shakuhachi,Ukulele,DoubleBassArco,Drums]','[MelodyBow,ChordPadsRanged,BassLine,RhythmSimpleGrooves]'
+41.142857,'A',70,'Dmaj','[Shakuhachi,Ukulele,DoubleBassArco,Drums]','[MelodyBow,ChordPadsRanged,BassLine,RhythmSimpleGrooves]'
+82.28571,'A',70,'Dmaj','[Shakuhachi,Ukulele,DoubleBassArco,Drums]','[MelodyBow,ChordPadsRanged,BassLine,RhythmSimpleGrooves]'
+123.42857,'B',70,'Dmaj','[TenorSax,DoubleBassArco,Drums]','[MelodyBow,BassLine,RhythmSimpleGrooves]'
+178.28572,'end',0,'','[]','[]'

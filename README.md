@@ -33,6 +33,11 @@ arff_to-csv-open-source/
 │  └─ dataset.csv                  # 转换结果样例（可训练）
 ├─ results/
 │  └─ aam_summary.json             # 转换统计报告
+├─ samples_arff/
+│  └─ 0001_beatinfo.arff		  # arff样本文件（3个一组）
+│  └─ 0001_onsets.arff
+│  └─ 0001_segements.arff
+│  └─ ...
 ├─ requirements.txt
 └─ README.md
 ```
