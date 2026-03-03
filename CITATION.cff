@@ -5,8 +5,8 @@ version: "1.0.0"
 date-released: "2026-03-03"
 license: "MIT"
 authors:
-  - family-names: "何"
-    given-names: "正"
+  - family-names: "He"
+    given-names: "Zheng"
     name-particle: ""
 keywords:
   - "symbolic music"
@@ -19,4 +19,5 @@ abstract: >-
   A preprocessing toolkit that converts grouped AAM annotations
   (segments/onsets/beatinfo) into a training-ready melody-chord CSV with
   optional key normalization and conversion summary statistics.
+
 
