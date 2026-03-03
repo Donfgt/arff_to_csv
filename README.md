@@ -34,7 +34,7 @@ arff_to-csv-open-source/
 ├─ results/
 │  └─ aam_summary.json             # 转换统计报告
 ├─ samples_arff/
-│  └─ 0001_beatinfo.arff		  # arff样本文件（3个一组）
+│  └─ 0001_beatinfo.arff		  # 3组arff样本文件（3个一组）
 │  └─ 0001_onsets.arff
 │  └─ 0001_segements.arff
 │  └─ ...
@@ -67,7 +67,7 @@ python src/aam_to_csv.py \
   --output_csv "data/dataset.csv" \
   --summary_json "results/aam_summary.json" \
   --id_start 0001 \
-  --id_end 0600 \
+  --id_end 3000 \
   --log_every 50
 ```
 
@@ -79,7 +79,7 @@ python src/aam_to_csv.py \
   --output_csv "data/dataset.csv"
 ```
 
-> 说明 / Note：`0001~0600` 仅为本文示例运行范围，不是固定限制。
+> 说明 / Note：`0001~3000` 仅为本文示例运行范围，不是固定限制。
 
 ### 3.3 CLI 参数总览 / Full CLI Argument List
 
@@ -200,8 +200,8 @@ Note: `N` and `REST` are expected characteristics due to source-label parseabili
 
 ---
 
-## 9. 快速复现建议 / Repro Tips
+## 9. 另外
 
-- 先跑小范围：`--id_start 0001 --id_end 0010` 验证流程；
-- 再跑全量，保留 `--summary_json` 便于质量审计；
-- 训练前建议先检查 `N` 与 `REST` 比例是否符合预期。
+这里面的dataset.csv是全量数据集(把所有的arff文件都做了处理得到的结果，最终有87w+条数据)。
+
+质量较高，除了调内和弦，也有离调和弦，缺点是主要是三和弦，几乎没有七和弦。
